@@ -1,4 +1,5 @@
 const uuidv4 = require('uuid/v4');
+const yalohice = true;
 
 const getRandomSeat = function(cols = 'ABCDEF', rows = 32) {
     var col = cols[Math.floor(Math.random() * cols.length)];
